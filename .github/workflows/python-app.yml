@@ -26,11 +26,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest-cov
-
+      
+      - name: Clear cache
+        run: |
+          find . -type d -name "__pycache__" -exec rm -rf {} +
 
       - name: Run tests
         run: |
-          pytest --maxfail=5 --disable-warnings --cov=todo --cov-report=xml
+          pytest tests --maxfail=5 --disable-warnings --cov=todo --cov-report=xml
       
       - name: Upload coverage to Coveralls
         run: coveralls
