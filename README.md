@@ -30,10 +30,10 @@ A simple, interactive command-line interface (CLI) application for managing a to
 
 2. Set up a virtual environment:
 
-```bash
-python3 -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
-```
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate # On Windows: venv\Scripts\activate
+    ```
 3. Install dependencies:
 
     ```bash
@@ -44,9 +44,9 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 
 Run the CLI tool:
 
-```bash
-python main.py
-```
+    ```bash
+    python todo_cli.py
+    ```
 ## Commands
 
 | Command                   | Description                                   |
