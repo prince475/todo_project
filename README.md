@@ -58,14 +58,17 @@ Run the CLI tool:
 | `filter <criteria>`        | List tasks based on filters                  |
 | `mark-complete <task_id>`  | Mark a task as complete                      |
 
-## Testing
+## Testin
+g
 The project uses pytest for unit and integration tests. You can run the tests 
 locally with the following command:
+
 ```bash
 pytest
 ```
 
 For testing specific features, you can also run individual test files:
+
 ```bash
 pytest test_todo.py
 ```
