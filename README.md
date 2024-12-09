@@ -217,5 +217,5 @@ Or manually trigger the workflow from the Actions tab on GitHub.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-Developed with ❤️ by [Prince Daniel].
+Developed with ❤️ by Prince Daniel.
 
