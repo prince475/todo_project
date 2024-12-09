@@ -12,6 +12,6 @@ pluggy==1.5.0
 pytest==8.3.4
 pytest-cov==5.0.0
 requests==2.32.3
--e git+git@github.com:prince475/todo_project.git@6b13b7078f0f6f0bc5843fc67631efbfad37a163#egg=todo_project
+-e git+https://github.com/prince475/todo_project.git@6b13b7078f0f6f0bc5843fc67631efbfad37a163#egg=todo_project
 tomli==2.2.1
 urllib3==2.2.3
